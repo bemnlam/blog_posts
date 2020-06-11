@@ -3,7 +3,7 @@ title: "A Tale of Two Caches: Redis and the cache helper"
 description: A note on how to add Redis and the cache helper to a .NET core Mvc app.
 date: 2020-06-11T21:06:59+08:00
 draft: false
-tags: ["C#", ".NET Core", "cache", "redis", "tag-helpers"]
+tags: ["csharp", ".NET Core", "cache", "redis", "tag-helpers"]
 thumbnail: https://images.unsplash.com/photo-1569235186275-626cb53b83ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80
 ---
 
