@@ -3,6 +3,7 @@ title: "Why You Should Manage Your Energy, Not Your Time"
 description: As a human being, **managing our energy is more important** because this is a limited resources.
 date: 2020-05-17T13:33:52+08:00
 draft: false
+categories: ["Readings"]
 tags: ["self management", "work", "pocket-digest"]
 thumbnail: https://images.unsplash.com/photo-1457694716743-eb419114c894?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 ---

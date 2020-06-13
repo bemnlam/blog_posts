@@ -3,6 +3,7 @@ title: "☕️ Fantastic Beans and Where to Find Them"
 date: 2020-06-11T10:39:39+08:00
 draft: false
 description: I found some local shops which selling pretty good beans. In Hong Kong.
+categories: ["Coffee"]
 tags: ["coffee"]
 thumbnail: https://images.unsplash.com/photo-1564676677001-92e8f1a0df30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 ---

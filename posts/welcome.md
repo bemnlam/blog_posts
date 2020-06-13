@@ -2,6 +2,7 @@
 title: "How to add a new Hugo blog post"
 date: 2020-04-16T10:55:25+08:00
 draft: false
+categories: ["Dev"]
 tags: ["tutorial", "hugo"]
 ---
 

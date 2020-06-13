@@ -3,7 +3,8 @@ title: "Documentation Makes Easy With MkDocs and GitLab Pages"
 date: 2020-06-12T19:37:00+08:00
 draft: false
 description: A guide to build a static website using MkDocs and deploy it to GitLab Pages.
-tags: ["how-to", "python", "mkdocs", "markdown", "gitlab"]
+categories: ["Dev"]
+tags: ["tutorial", "python", "mkdocs", "markdown", "gitlab"]
 thumbnail: https://images.unsplash.com/photo-1544396821-4dd40b938ad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 ---
 
