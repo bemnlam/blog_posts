@@ -5,7 +5,8 @@ date: 2020-06-11T21:06:59+08:00
 draft: false
 categories: ["Dev"]
 tags: ["tutorial", "csharp", ".NET Core", "cache", "redis", "tag-helpers"]
-thumbnail: https://images.unsplash.com/photo-1569235186275-626cb53b83ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80
+thumbnail: /img/a-tale-of-two-caches-redis-and-cache-helper/thumbnail.png
+# thumbnail: https://images.unsplash.com/photo-1569235186275-626cb53b83ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80
 ---
 
 ## Background ##
