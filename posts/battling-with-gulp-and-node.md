@@ -45,9 +45,9 @@ error	26-Jun-2020 08:35:05	npm ERR! This is probably not a problem with npm. The
 }
 ```
 
-### 😐 node-sass
+### 😐 `node-sass`
 
-I noticed that should be something wrong with `node-sass`, which being used in `gulp-sass`. I met this issues before and from my experience, [node-sass will try to download the corresponding prebuilt binary base on the OS or build it using `python`, `MSBuild`, etc...](https://stackoverflow.com/a/45807410/13742790) (That's why you will met lots of questions in Stack Overflow asking **`python2` not found when installing `node-sass`** ,  **what's wrong with my `node-sass`** or **I got a panic attack when dealing with `node-sass` should I consult a developer or a doctor first?**).
+I noticed that should be something wrong with `node-sass`, which being used in `gulp-sass`. I met this issues before and from my experience, [`node-sass` will try to download the corresponding prebuilt binary](https://stackoverflow.com/a/45807410/13742790) base on your OS or build it locally using `python`, `MSBuild`, etc... (That's why you will met lots of questions in Stack Overflow asking **`python2` not found when installing `node-sass`** ,  **what's wrong with my `node-sass`** or **I got a panic attack when dealing with `node-sass` should I consult a developer or a doctor first?**).
 
 For this `node-sass` issue, [you can try to run this on Windows](https://hisk.io/how-to-fix-node-js-gyp-err-cant-find-python-executable-python-on-windows/):
 
@@ -87,7 +87,7 @@ error	26-Jun-2020 08:53:06	    at require (internal/modules/cjs/helpers.js:72:18
 I don't want to change my `gulpfile.js` and I don't want to upgrade `gulp`. Not now.  That's why I started searching for a solution without changing any configurations of the build server as well as the gulp setup in the project.
 
 
-## 😀 Solution: adding a npm-shrinkwrap.json
+## 😀 Solution: adding a `npm-shrinkwrap.json`
 
 Eventually I [found a solution](https://stackoverflow.com/questions/55921442/how-to-fix-referenceerror-primordials-is-not-defined-in-node/58394828#58394828) on how to handle this "Gulp VS Node" situation. What we need is create a `npm-shrinkwrap.json` file under the same directory with `package.json`. 
 
@@ -117,7 +117,7 @@ And from the documentation on the [`npm-shrinkwrap.json`](https://docs.npmjs.com
 
 In other words, this file has a *higher priority* then `package-lock.json`. However, why this file can solve the build error?
 
-#### The 'fs' module
+#### The`fs` module
 
 Node's `fs` module got some changes since **v11.15** which cause the `graceful-fs@^3.0.0` package does not work anymore. Unfortunately, `gulp@3.9.1` depends on  `graceful-fs@^3.0.0`. As a result, running the gulp tasks on Node.js v12 will cause the `primordials is not defined` error.
 
