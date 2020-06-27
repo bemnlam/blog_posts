@@ -1,9 +1,8 @@
 ---
 title: "🐞 Battling With Gulp and Node"
 description: Tackling the generation gap between old Gulp and young Node when building my website.
-date: 2020-06-27T12:03:12+08:00
-lastmod: 2020-06-25T17:10:24+08:00
-draft: true
+date: 2020-06-27T16:03:12+08:00
+draft: false
 categories: ["Dev"]
 tags: ["pest-control", "nodejs", "node-sass", "gulp", "gulp-sass"]
 thumbnail: /img/battling-with-gulp-and-node/thumbnail.png
