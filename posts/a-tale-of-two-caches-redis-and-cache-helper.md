@@ -2,6 +2,7 @@
 title: "A Tale of Two Caches: Redis and the cache helper"
 description: A note on how to add Redis and the cache helper to a .NET core Mvc app.
 date: 2020-06-11T21:06:59+08:00
+lastmod: 2020-06-27T17:06:24+08:00
 draft: false
 categories: ["Dev"]
 tags: ["tutorial", "csharp", ".NET Core", "cache", "redis", "tag-helpers"]
@@ -214,7 +215,7 @@ You will see the value rendered in the above example won't change for 60 seconds
 
 ---
 
-## Bonus: A note on **@helper** and other HTML helpers {#bonus}  ##
+## Bonus: A note on `@helper` and other HTML helpers {#bonus}  ##
 
 In the old days we can define some `@helper` functions in the razor view and (re)use it in the view. It's being removed since .NET Core 3.0 because the design of `@helper` function does not compatible with async Razor content anymore.
 
