@@ -54,7 +54,7 @@ Here are some highlights:
 
 #### 2. appsettings.json {#redis-appsettings} ####
 
-A typical .NET Core project there should be a `appsettings.json`. Add the following section:
+A typical .NET Core project should have an `appsettings.json`. Add the following section:
 
 ```json
 {
@@ -82,7 +82,7 @@ var redisConfiguration = Configuration.GetSection("Redis").Get<RedisConfiguratio
 services.AddStackExchangeRedisExtensions<NewtonsoftSerializer>(redisConfiguration);
 ```
 #### 5. CacheService {#redis-cache-service} ####
-I created a `CacheService.cs` to help me to read/write data in Redis. In this service:
+I created a `CacheService.cs` to help me reading/writing data in Redis. In this service:
 
 ```cs
 public CacheService(RedisConfiguration redisConfiguration, ILogger<RedisCacheConnectionPoolManager> poolLogger)
@@ -169,7 +169,7 @@ public async Task<IActionResult> Demo(string name)
         return View(cachedResult);
     }
 
-    // Add new entry to Redis before returning the message.
+    // Add a new entry to Redis before returning the message.
     var message = $"Hello, {name}";
     if(null != sections && sections.Any())
     {
