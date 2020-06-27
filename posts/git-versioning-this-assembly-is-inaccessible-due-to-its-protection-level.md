@@ -68,7 +68,7 @@ After that, `ThisAssembly` is back and I can read the git version info successfu
 
 
 
-###### 🔗 reference:
+###### 🔗 references:
 - https://github.com/dotnet/Nerdbank.GitVersioning/blob/master/doc/dotnet.md
 - https://github.com/dotnet/Nerdbank.GitVersioning/issues/449
 - https://github.com/dotnet/Nerdbank.GitVersioning/issues/404
