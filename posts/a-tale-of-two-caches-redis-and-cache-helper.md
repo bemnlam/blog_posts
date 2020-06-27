@@ -181,12 +181,10 @@ public async Task<IActionResult> Demo(string name)
 ```
 
 > **Explain Like I'm Five**: 
-
-> You ask the shopkeeper in `Demo` bookstore do they have a specific book `name`. First, the shopkeeper looks for the book on the bookshelf named `Redis`. If he found that book, he take it out and give it to you.
 >
-
+> You ask the shopkeeper in `Demo` bookstore do they have a specific book `name`. First, the shopkeeper looks for the book on the bookshelf named `Redis`. If he finds that book, he takes it out and gives it to you.
 >
-> If your book does not exist in the `Redis` bookstore, he has to go out and buy that book for you. However, he buys 2 identical copied. He gives you one and put the other one on the `Redis` bookshelf, just in case another customer want that book later.
+> If your book does not exist in the `Redis` bookstore, he has to go out and buy that book for you(!). However, he buys 2 identical copies. He gives you one and puts the other one on the `Redis` bookshelf, just in case another customer want that book later.
 
 ---
 
