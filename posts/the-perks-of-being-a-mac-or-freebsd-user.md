@@ -17,7 +17,7 @@ thumbnail: https://images.unsplash.com/photo-1511075675422-c8e008f749d7?ixlib=rb
   - [The meaning of flowers](#meaning-of-flowers)
   - [The Birthday Present Guide](#the-bday-guide)
 - [Mac is a Secret Fan of...](#mac-is-a-secret-fan-of)
-- [Bonus: the missing receipe](#bonus-recipe)
+- [Bonus: the missing recipe](#bonus-recipe)
 
 ---
 
@@ -189,7 +189,7 @@ This is a timeline of the important events happened in The Lord Of The Rings[^3]
 
 ## Bonus: the missing recipe {#bonus-recipe}
 
-In the eariler versions of the macOS, **a hidden cookie receipe** can be found by typing this command in the Terminal:
+In the eariler versions of the macOS, **a hidden cookie recipe** can be found by typing this command in the Terminal:
 
 ```bash
 Open /usr/share/emacs/22.1/etc/COOKIES
