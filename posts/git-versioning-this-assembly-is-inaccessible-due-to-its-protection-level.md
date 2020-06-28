@@ -2,7 +2,7 @@
 title: "🐞 GitVersioning: 'ThisAssembly' Is Inaccessible Due to Its Protection Level"
 description: I can't use 'ThisAssembly' in my .NET MVC project. Here's why.
 date: 2020-06-25T17:10:24+08:00
-lastmod: 2020-06-25T17:10:24+08:00
+lastmod: 2020-06-28T11:10:24+08:00
 draft: false
 categories: ["Dev"]
 tags: ["pest-control", "csharp", ".NET", "nuget"]
@@ -11,21 +11,21 @@ thumbnail: https://i.insider.com/5593f5cc6bb3f7ac51d8d3cf
 
 ## 😨 Problem
 
-After I installed the **[Nerdbank.GitVersioning](https://www.nuget.org/packages/Nerdbank.GitVersioning)** Nuget package in my .NET MVC app to get the version using `ThisAssembly.AssemblyInformationalVersion`, the following error came out when building the app:
+After I installed the **[Nerdbank.GitVersioning](https://www.nuget.org/packages/Nerdbank.GitVersioning)** Nuget package in my .NET MVC app, the following error came out when building the app when I want to get the version using `ThisAssembly.AssemblyInformationalVersion`:
 
-```
+```bash
 error CS0122: 'ThisAssembly' is inaccessible due to its protection level
 ```
 
-I tried to install the package on all the projects in the same solution. It didn't work.
+I tried to install the package across all the projects in the same solution. It didn't work.
 
-I tried to uninstall and re-ininstall the packate. It didn't work.
+I tried to uninstall and re-ininstall the package. It didn't work.
 
 ## 😀 Solution
 
 ### .csproj
 
-Turns out there is something missing in my `.csproj` file. Some code is missing at the end of the file, just before the `</Target>` tag:
+Turns out there is something missing in my `.csproj` file. I missed an `<Import>` tag at the end of the file, just before the `</Target>` tag:
 
 ```xml
 <Import Project="..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets" Condition="Exists('..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets')" />
@@ -37,25 +37,25 @@ And in the `EnsureNuGetPackageBuildImports` target, add the following line
 <Error Condition="!Exists('..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets'))" />
 ```
 
-In addition, the 1st `<PropertyGroup>` should contains a pair of  `NuGetPackageImportStamp` tag:
+In addition, the 1st `<PropertyGroup>` should contain a pair of  `NuGetPackageImportStamp` tag:
 
 ```xml
 <NuGetPackageImportStamp>
 </NuGetPackageImportStamp>
 ```
 
-### AssemblyInfo
+### `AssemblyInfo.cs`
 
-I also remove the following lines in `Properties/AssemblyInfo.cs`:
+I also removed the following lines in `Properties/AssemblyInfo.cs`:
 
 ```c#
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 ```
 
-### version.json
+### `version.json`
 
-At the root directory of the **project** file, I added a `version.json` file with the following content:
+At the root directory of the **project**, I added a `version.json` file with the following content:
 
 ```json
 {
