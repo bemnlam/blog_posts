@@ -11,7 +11,7 @@ thumbnail: https://i.insider.com/5593f5cc6bb3f7ac51d8d3cf
 
 ## 😨 Problem
 
-After I installed the **[Nerdbank.GitVersioning](https://www.nuget.org/packages/Nerdbank.GitVersioning)** Nuget package in my .NET MVC app, the following error came out when building the app when I want to get the version using `ThisAssembly.AssemblyInformationalVersion`:
+After I installed the **[Nerdbank.GitVersioning](https://www.nuget.org/packages/Nerdbank.GitVersioning)** Nuget package in my .NET MVC app, the following error came out when I want to get the version using `ThisAssembly.AssemblyInformationalVersion`:
 
 ```bash
 error CS0122: 'ThisAssembly' is inaccessible due to its protection level
