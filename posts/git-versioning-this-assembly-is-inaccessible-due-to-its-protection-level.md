@@ -31,7 +31,7 @@ Turns out there is something missing in my `.csproj` file. I missed an `<Import>
 <Import Project="..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets" Condition="Exists('..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets')" />
 ```
 
-And in the `EnsureNuGetPackageBuildImports` target, add the following line
+And in the `EnsureNuGetPackageBuildImports` target, add the following line:
 
 ```xml
 <Error Condition="!Exists('..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Nerdbank.GitVersioning.3.1.91\build\Nerdbank.GitVersioning.targets'))" />
