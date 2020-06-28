@@ -2,13 +2,14 @@
 title: "The Perks of Being a Mac (or FreeBSD) user"
 description: Your computer may know something you don't expected.
 date: 2020-06-28T12:28:38+08:00
+lastmod: 2020-06-28T22:30:38+08:00
 draft: false
 categories: ["Leisure"]
 tags: ["mac", "easter-egg"]
 thumbnail: https://images.unsplash.com/photo-1511075675422-c8e008f749d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 ---
 
-> 🚨 Note: This is not a technical post. If you want to have some fun and practice your `ls` and `cat` skills, please go ahead and read the content below.
+> 🚨 Note: This is not a technical reading. If you want to have some fun and practice your `ls` and `cat` skills, this article may suit you.
 
 ## Table of Content
 
@@ -16,13 +17,13 @@ thumbnail: https://images.unsplash.com/photo-1511075675422-c8e008f749d7?ixlib=rb
   - [The meaning of flowers](#meaning-of-flowers)
   - [The Birthday Present Guide](#the-bday-guide)
 - [Mac is a Secret Fan of...](#mac-is-a-secret-fan-of)
-- [Bonus: the missing receipe](#bonus-receipe)
+- [Bonus: the missing receipe](#bonus-recipe)
 
 ---
 
 ## Misc. Files of the OS {#misc-file}
 
-I found some interesting files under `/usr/share/misc` of my Macbook:
+I found some interesting files under `/usr/share/misc` of my MacBook:
 
 ```bash
 -r--r--r--  1 root  wheel   3.1K Dec 14  2019 ascii
@@ -186,9 +187,9 @@ This is a timeline of the important events happened in The Lord Of The Rings[^3]
 #endif /* !_calendar_lotr_ */
 ```
 
-## Bonus: the missing receipe {#bonus-receipe}
+## Bonus: the missing recipe {#bonus-recipe}
 
-In eariler versions of the macOS, **a hidden cookie receipe** can be found by typing this command in the Terminal:
+In the eariler versions of the macOS, **a hidden cookie receipe** can be found by typing this command in the Terminal:
 
 ```bash
 Open /usr/share/emacs/22.1/etc/COOKIES
