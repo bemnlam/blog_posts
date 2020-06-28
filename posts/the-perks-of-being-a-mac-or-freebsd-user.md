@@ -134,7 +134,7 @@ The `/usr/share/calendar` folder contains some useful calendars but this one rea
 -rw-r--r--  1 root  wheel   1.4K Dec 14  2019 calendar.lotr
 ```
 
-This is a timeline of the important events happened in The Lord Of The Rings[^3]:
+This is a timeline of the important events happened in *The Lord Of The Rings*[^3]:
 
 ```
 /*
@@ -195,7 +195,7 @@ In the eariler versions of the macOS, **a hidden cookie recipe** can be found by
 Open /usr/share/emacs/22.1/etc/COOKIES
 ```
 
-Unforrunately in the latest macOS this file is gone (together with `/usr/share/emacs`). We can only check this out [on the apple opensource website](https://opensource.apple.com/source/emacs/emacs-96/emacs/etc/COOKIES.auto.html)[^4].
+Unforrunately in the latest macOS this file is gone (together with `/usr/share/emacs`). We can only check this out [on the Apple Open Source website](https://opensource.apple.com/source/emacs/emacs-96/emacs/etc/COOKIES.auto.html)[^4].
 
 [^1]: https://github.com/lattera/freebsd/blob/master/share/misc/flowers
 [^2]: https://github.com/lattera/freebsd/blob/master/share/misc/birthtoken
