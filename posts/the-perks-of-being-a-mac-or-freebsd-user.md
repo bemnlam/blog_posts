@@ -15,8 +15,8 @@ thumbnail: https://images.unsplash.com/photo-1511075675422-c8e008f749d7?ixlib=rb
 
 - [Misc. files of the OS](#misc-file)
   - [The meaning of flowers](#meaning-of-flowers)
-  - [The Birthday Present Guide](#the-bday-guide)
-- [Mac is a Secret Fan of...](#mac-is-a-secret-fan-of)
+  - [The birthday present guide](#the-bday-guide)
+- [Mac is a secret fan of...](#mac-is-a-secret-fan-of)
 - [Bonus: the missing recipe](#bonus-recipe)
 
 ---
