@@ -16,7 +16,7 @@ Recently our team started a new project: a showcase page under our main website.
 
 I built this **MVC** web app using **.NET Core 3.1** and deploy it as an IIS sub-site under the main website (which is a **.NET Framework** web app running on the IIS).
 
-### Table of Content
+### Table of Contents
 
 - [Redis](#redis)
     - [NuGet package](#redis-nuget)

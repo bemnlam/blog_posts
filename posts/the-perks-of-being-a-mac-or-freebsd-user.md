@@ -11,7 +11,7 @@ thumbnail: https://images.unsplash.com/photo-1511075675422-c8e008f749d7?ixlib=rb
 
 > 🚨 Note: This is not a technical reading. If you want to have some fun and practice your `ls` and `cat` skills, this article may suit you.
 
-## Table of Content
+## Table of Contents
 
 - [Misc. files of the OS](#misc-file)
   - [The meaning of flowers](#meaning-of-flowers)

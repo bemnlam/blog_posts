@@ -12,7 +12,7 @@ thumbnail: https://images.unsplash.com/photo-1544396821-4dd40b938ad3?ixlib=rb-1.
 
 I created a static website using **MkDocs** and deployed to [**GitLab Pages**](https://docs.gitlab.com/ee/user/project/pages/). This is what I did: https://bemn-proof-of-concept.gitlab.io/mkdoc/.
 
-### Table of Content ###
+### Table of Contents ###
 
 - [MkDocs](#intro)
   - [Preparation](#preparation)

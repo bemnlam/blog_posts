@@ -14,7 +14,7 @@ thumbnail: https://images.unsplash.com/photo-1564676677001-92e8f1a0df30?ixlib=rb
 
 During the 2020 pandamic, it's not easy to buy beans overseas. However, it gave me a great opportunity to search for some good beans in Hong Kong. Plus, I have more time to stay at home and brew coffee as the company started the WFH policy from Feb.
 
-### Table of content
+### Table of contents
 1. [My Little Coffee](#my-little-coffee)
    - [Beans](#01-beans) and [drip bags](#01-bags)
    - [Equipments](#01-equipments) (TBC)
