@@ -1,6 +1,7 @@
 ---
 title: "☕️ Fantastic Beans and Where to Find Them"
 date: 2020-06-11T10:39:39+08:00
+lastmod: 2020-09-12
 draft: false
 description: I found some local shops which selling pretty good beans. In Hong Kong.
 categories: ["Coffee"]
@@ -21,6 +22,10 @@ During the 2020 pandamic, it's not easy to buy beans overseas. However, it gave 
 2. [Brew Note Coffee Roaster](#02-brew-note)
    - [Beans](#02-beans)
    - [Subscription plans](#02-plans)
+
+🏷 2020-09-12:
+- Added new beans I tried.
+- Added new equipments.
 
 *I will keep searching for new beans and new local shops in the coming days.*
 
@@ -63,15 +68,42 @@ I bought their beans twice a week. Here are some beans that I've tried and the l
 
 - Tangerine, grape, Earl Grey, smooth, long-lasting
 
- **Bohemian Rhapsody**
+**(?) Bohemian Rhapsody**
 
 - Nutty, winy, berries, cranberry, balance, sweet, rich & mellow. Smooth
 
+**🍷 Yunnan (Brandy Fermentation)**
+
+This one is super interesting and addictive. Strong brandy / rum tasty.
+- Foral, brandy winey, black berry
+
 ### Drip bags {#01-bags} ###
-(TBC)
+
+- The shop also grinds their beans and sell it as drop bags (~$75/10 bags). Suitable for people who want to drink their own choice in the office.
 
 ### Equipments {#01-equipments} ###
-(TBC)	
+
+#### Coffee filter
+**KONO**
+
+While V60 is dominating the market (I also using plastic V60. Cheap, robust, simple), this shop don't sell V60. Instead, KONO filter is all over the shop.
+
+![a typical KONO filter](https://shop.r10s.jp/ultramix/cabinet/item17/md-41_1.jpg)
+
+**Clever Cup**
+
+They sold clever cup recently. In my opinion, it is a french press but looks like a drip coffee filter. You can also use it as a typical coffee filter if you want.
+
+![a typical clever cup](https://s3-ap-southeast-2.amazonaws.com/fivesenses.com.au/wp-content/uploads/2016/04/17122158/CCD.png)
+
+**The Vietnamese**
+
+Once apon a time I drank the vietnamese coffee from a local restaurant and it used this coffee filter to brew a dark and strong coffee and mixed with condensed milk. (So strong that I got a headache afterwards X.X)
+
+![a typical vietnamese coffee filter](https://www.webstaurantstore.com/images/products/extra_large/58984/99644.jpg)
+
+#### Grinders
+(TBC)
 
 ---
 
