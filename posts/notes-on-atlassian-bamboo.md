@@ -1,6 +1,6 @@
 ---
 title: "Notes on Atlassian Bamboo"
-description: "Throughs about using Atlassian Bamboo: the introduction."
+description: "Thoughs about using Atlassian Bamboo: the introduction."
 date: 2020-09-20T14:45:18+08:00
 draft: false
 categories: ["Dev"]
