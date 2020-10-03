@@ -2,6 +2,7 @@
 title: "Notes on Atlassian Bamboo"
 description: "Thoughs about using Atlassian Bamboo: the introduction."
 date: 2020-09-20T14:45:18+08:00
+lastmod: 2020-10-03T12:06:24+08:00
 draft: false
 categories: ["Dev"]
 tags: ["Bamboo", "continuous integration", "continuous delivery"]
@@ -9,25 +10,31 @@ cover_image: https://images.unsplash.com/photo-1510707421852-103d8d97c090?ixlib=
 cover_image_caption: "Photo by Jordan Merrick: https://unsplash.com/photos/gPEMUZHwal4"
 ---
 
-## Preface
+> This is the introduction related to my experience on using Atlassian Bamboo / MSBuild / MSDeploy / IIS, I will cover the build process / setup in the coming articles.
 
-This is an article talking about **my experience (≠ 100% solution. ≠ tenet on CI/CD)** on using [Atlassian Bamboo](https://www.atlassian.com/software/bamboo). It is **a tool for continuous integration, deployment, and delivery**. I use this tool for all the **.NET-based web applications running on the Windows ecosystem**.
+# Preface
+
+This is an article talking about **my experience (≠ 100% solution. ≠ golden rule on CI/CD)** on using [Atlassian Bamboo](https://www.atlassian.com/software/bamboo). It is **a tool for [continuous integration, deployment, and delivery](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)**. I use this tool for all the **.NET-based web applications running on the Windows ecosystem**.
 
 > Note on 2020: [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a newer service created by Atlassian. If you are building applications other then [Windows](https://bitbucket.org/site/master/issues/13452/support-for-native-windows-net-builds-on), [macOS, or iOS](https://bitbucket.org/site/master/issues/13719/support-for-macos-ios-in-pipelines) applications then I strongly recommend you to use this instead of Bamboo.
 
 {{< toc >}}
 
-# Principles of a CI/CD workflow
+# CI/CD principles
 
-In my opinion, when you start designing your CI/CS workflow:
+**In my opinion**, when you start designing your CI/CD workflows:
 
 1. Make things **predictable**.
-2. You should think of the **deployment (CD) first**, then work backward to the integration (CI) part.
+2. Think of the **deployment (CD) first**, then work backward to the **integration (CI)** part.
 3. Use ***Gitflow*** in your source code.
 
-## Fundamentals in Bamboo
+# Fundamentals of Bamboo
 
-The menu in Bamboo (version 6.5.0) contains 3 parts: The *Projects*, the *Build* and *Deploy*.
+The menu in Bamboo (version 6.5.0) contains 3 parts:  
+
+- *Projects*, 
+- *Build* and 
+- *Deploy*.
 
 ![Build dropdown menu](../../static/img/notes-on-atlassian-bamboo/image-20200913141147305.png)
 
@@ -35,7 +42,7 @@ The menu in Bamboo (version 6.5.0) contains 3 parts: The *Projects*, the *Build*
 
 
 
-### Deployment (CD)
+## Deployment (CD)
 
 Here is a typical **deployment project summary** looks like:
 
@@ -43,7 +50,7 @@ Here is a typical **deployment project summary** looks like:
 
 You can check this out by clicking **Deploy** > **All Deployment Projects**. After that, choose one of the item on the list.
 
-#### Glossary
+### Glossary
 
 *Artifact*: The content built in the CI part.
 
@@ -53,7 +60,7 @@ You can check this out by clicking **Deploy** > **All Deployment Projects**. Aft
 
 *Deployment Project*: A collection of build plans.
 
-### Build (CI)
+## Build (CI)
 
 Here is a typical build dashboard:
 
@@ -61,13 +68,13 @@ Here is a typical build dashboard:
 
 This is the default front page of Bamboo. You can also check this out by clicking **Build** > **All Build Plans**.
 
-#### Glossary
+### Glossary
 
 *Build*: The build result of the default plan.
 
 *Build Plan*: Usually it refers to the definitions of all build-related configuratoins. However, sometimes it *also* refers to the **default build barnch** or the **default branch configurations**.
 
-I will try to avoid using *build plan* in this article as it is a bit confusing. I will use :
+I will try to avoid using the term *build plan* in this article as it is a bit confusing. I will use :
 
 - *default branch configuratoins* to indicate the default settings of a *build plan*;
 
@@ -76,9 +83,9 @@ I will try to avoid using *build plan* in this article as it is a bit confusing.
 
 *Build Project*: Similar to *Deployment Project*, it's a collection of *build plans*.
 
-### Git
+## Git
 
-From the basic assumption in pt. 3, all the repositories are using [Gitflow](https://nvie.com/posts/a-successful-git-branching-model/). I will use the following conventions when talking about the CI settings.
+From the basic assumption in the [CI/CD principles, pt. 3](#cicd-principles) all the repositories are using [Gitflow](https://nvie.com/posts/a-successful-git-branching-model/). I will use the following conventions when talking about the CI settings.
 
 *Default build branch*: git's `develop` branch. 
 
@@ -142,7 +149,7 @@ Deployment Project
 
 ### Websites
 
-We have 2 web servers for production and other environments has a corresponding web server. All running IIS. On the other hand, some of the website are hosting under a sub-directory (as a sub-site).
+We have 2 web servers for production and other environments has a corresponding web server. All running IIS. On the other hand, some of the websites are hosting under a sub-directory (as a sub-site).
 
 Therefore, an *artifact* may goes to multiple destinations.
 
@@ -180,6 +187,8 @@ Moreover, you can see the status of all environments in the **All Deployment Pro
 - Plus, I can just re-deploy to that particuler web server
 
 You can create a new *deployment environment* by cloning an existing one (from the same *deployment project* or from another one). Thus, this is not a tedious task.
+
+(I am not sure about the above observation and please do let me know if I got something wrong or there are any better solutions.)
 
 ##### My decision
 
@@ -238,7 +247,7 @@ I ususlly not using `release` branch. When I use that, I will set up a build bra
 
 #### Staging configurations: `staging`
 
-Similar to the set up of **production configurations**. However, change the variables for the staging environment.
+Just like the set up of **production configurations**. However, change the variables for the staging environment.
 
 ![Build branch configuration - Branch details](../../static/img/notes-on-atlassian-bamboo/image-20200920110535916.png)
 
