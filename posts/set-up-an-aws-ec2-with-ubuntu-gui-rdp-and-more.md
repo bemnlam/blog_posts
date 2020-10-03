@@ -340,9 +340,9 @@ scp -i sparkle.pem ubuntu@ec2-0-1-2-3.ap-northeast-1.compute.amazonaws.com:~/dem
 
 #### Connect to the VPN
 
-[Pritunl Client](https://client.pritunl.com/) is a easy-to-use OpenVPN client. Downlaod and install it:
+[Pritunl Client](https://client.pritunl.com/) is a easy-to-use OpenVPN client. Downlaod and install it.
 
-Click **Import Profile**:
+Launch the client and click **Import Profile**:
 
 ![Import ovpn profile](../../static/img/screenshot.png)
 
