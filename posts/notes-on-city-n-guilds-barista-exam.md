@@ -2,11 +2,11 @@
 title: "☕️ Notes on City & Guilds International Barista Exam"
 description: "A notebook for C&G barista exam."
 date: 2020-12-31T20:58:21+08:00
-lastmod: 2020-12-31T17:46:38+08:00
+lastmod: 2020-12-31T20:58:21+08:00
 draft: false
 categories: ["Coffee"]
 tags: ["city-n-guilds", "barista", "coffee"]
-cover_image: https://images.unsplash.com/photo-1562771335-b1fe8b4ea78f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80
+cover_image: "https://images.unsplash.com/photo-1562771335-b1fe8b4ea78f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
 cover_image_caption: "Photo by Dung Trieu: https://unsplash.com/photos/DVA6kQNdUWs"
 ---
 
