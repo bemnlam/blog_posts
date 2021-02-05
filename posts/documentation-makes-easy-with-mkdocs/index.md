@@ -81,7 +81,7 @@ INFO    -  Documentation built in 1.65 seconds
 ```
 And check it out at [http://127.0.0.1:8000](http://127.0.0.1:8000)!
 
-![Running MkDocs](/img/documentation-makes-easy-with-mkdocs/01_welcome.png)
+![Running MkDocs](./img/01_welcome.png)
 
 ### Add a new page {#add-a-new-page} ###
 
@@ -145,7 +145,7 @@ $ mkdocs serve
 
 You will see MkDocs is dressing the amber Material Design theme.
 
-![Material Design theme with amber scheme](/img/documentation-makes-easy-with-mkdocs/02_theming.png)
+![Material Design theme with amber scheme](./img/02_theming.png)
 
 ### Custom Resources {#custom-resources} ###
 
@@ -199,7 +199,7 @@ $(document).ready( function () {
 
 Afer that, you should be able to see an interactive table in the catalog page.
 
-![With jQuery Datatables](/img/documentation-makes-easy-with-mkdocs/03_with-custom-resources.png)
+![With jQuery Datatables](./img/03_with-custom-resources.png)
 
 
 
@@ -266,7 +266,7 @@ In order to display the website properly, you need to place the generated site u
 
 Push the code to GitLab and the site should build automatically. Check out the status of the build under **CI/CD** -->  **Pipelines**.
 
-{{< figure src="/img/documentation-makes-easy-with-mkdocs/04_gitlab-ci-cd-panel.png" alt="CI/CD panel in GitLab" title="A green tag showing passed for each successfully build." >}}
+{{< figure src="./img/04_gitlab-ci-cd-panel.png" alt="CI/CD panel in GitLab" title="A green tag showing passed for each successfully build." >}}
 
 Check out your website now. The url is `https://{username or project group name}.gitlab.io/{repo name}/`.
 

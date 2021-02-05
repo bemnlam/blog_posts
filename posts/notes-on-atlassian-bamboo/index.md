@@ -1,8 +1,8 @@
 ---
-title: "Notes on Atlassian Bamboo"
+title: "Atlassian Bamboo: an Opinionated Approach"
 description: "Thoughs about using Atlassian Bamboo: the introduction."
 date: 2020-09-20T14:45:18+08:00
-lastmod: 2020-10-03T12:06:24+08:00
+lastmod: 2021-02-05T21:06:24+08:00
 draft: false
 categories: ["Dev"]
 tags: ["Bamboo", "continuous integration", "continuous delivery"]
@@ -36,9 +36,9 @@ The menu in Bamboo (version 6.5.0) contains 3 parts:
 - *Build* and 
 - *Deploy*.
 
-![Build dropdown menu](../../static/img/notes-on-atlassian-bamboo/image-20200913141147305.png)
+![Build dropdown menu](./img/image-20200913141147305.png)
 
-![Deploy dropdown menu](../../static/img/notes-on-atlassian-bamboo/image-20200913141246490.png)
+![Deploy dropdown menu](./img/image-20200913141246490.png)
 
 
 
@@ -46,7 +46,7 @@ The menu in Bamboo (version 6.5.0) contains 3 parts:
 
 Here is a typical **deployment project summary** looks like:
 
-![A typical deployment project](../../static/img/notes-on-atlassian-bamboo/image-20200913132645203.png)
+![A typical deployment project](./img/image-20200913132645203.png)
 
 You can check this out by clicking **Deploy** > **All Deployment Projects**. After that, choose one of the item on the list.
 
@@ -64,7 +64,7 @@ You can check this out by clicking **Deploy** > **All Deployment Projects**. Aft
 
 Here is a typical build dashboard:
 
-![A typical build dashboard](../../static/img/notes-on-atlassian-bamboo/image-20200913130048805.png)
+![A typical build dashboard](./img/image-20200913130048805.png)
 
 This is the default front page of Bamboo. You can also check this out by clicking **Build** > **All Build Plans**.
 
@@ -95,15 +95,15 @@ From the basic assumption in the [CI/CD principles, pt. 3](#cicd-principles) all
 
 *Linked Repository*: Store all the git repository connection setups for later user in CI/CD steps. It's under **⚙️ (Bamboo Administration)** > **Linked repositories**.
 
-![Bamboo Administration > Linked repositories](../../static/img/notes-on-atlassian-bamboo/image-20200919094705047.png)
+![Bamboo Administration > Linked repositories](./img/image-20200919094705047.png)
 
 This is an example for a class library:
 
-![Plan branches in a class library build plan](../../static/img/notes-on-atlassian-bamboo/image-20200919093103200.png)
+![Plan branches in a class library build plan](./img/image-20200919093103200.png)
 
 And this is an example for website:
 
-![Plan branches in a website build plan](../../static/img/notes-on-atlassian-bamboo/image-20200919093317277.png)
+![Plan branches in a website build plan](./img/image-20200919093317277.png)
 
 Next, I will talk about how to **design** a CD flow, then a CI flow.
 
@@ -133,11 +133,11 @@ All the deployments in my team can be categorized in to 2 types: either a **libr
 
 My team is using [MyGet](https://myget.org/) to host private packages. So, there is only 1 destination for my *artifact* goes.
 
-![Bamboo class library CD flow](../../static/img/notes-on-atlassian-bamboo/image-20200913153116958.png)
+![Bamboo class library CD flow](./img/image-20200913153116958.png)
 
 This is how I organize the *deployment project*:
 
-![Class library deployment project setup](../../static/img/notes-on-atlassian-bamboo/image-20200913154357682.png)
+![Class library deployment project setup](./img/image-20200913154357682.png)
 
 ```
 Deployment Project
@@ -155,7 +155,7 @@ Therefore, an *artifact* may goes to multiple destinations.
 
 In my design, 1 *deployment environment* responsibles for 1 destination (i.e. 1 IIS web server).
 
-![Bamboo website CD flow](../../static/img/notes-on-atlassian-bamboo/image-20200913190536806.png)
+![Bamboo website CD flow](./img/image-20200913190536806.png)
 
 So you may ask: why not 1 deployment environment for 1 environment? Here's why:
 
@@ -194,7 +194,7 @@ You can create a new *deployment environment* by cloning an existing one (from t
 
 This is how I organize the *deployment project*:
 
-![Website deployment project setup](../../static/img/notes-on-atlassian-bamboo/image-20200913154337848.png)
+![Website deployment project setup](./img/image-20200913154337848.png)
 
 ```
 Deployment Project
@@ -221,7 +221,7 @@ I need to build 2 kinds of *artifacts*:
 
 (See the [Websites](#default-configurations-develop) section.)
 
-![Bamboo class library CI flow](../../static/img/notes-on-atlassian-bamboo/ci-cd-CI-Nuget.png)
+![Bamboo class library CI flow](./img/ci-cd-CI-Nuget.png)
 
 ### Websites
 
@@ -231,7 +231,7 @@ I need to build 2-3 kinds of *artifacts*:
 - For **Staging** environment (this environment is not 24/7 and will be set up when necessary);
 - For **Production** environment.
 
-![Bamboo website CI flow](../../static/img/notes-on-atlassian-bamboo/ci-cd-CI-IIS.png)
+![Bamboo website CI flow](./img/ci-cd-CI-IIS.png)
 
 #### Default configurations: `develop`
 
@@ -249,10 +249,10 @@ I ususlly not using `release` branch. When I use that, I will set up a build bra
 
 Just like the set up of **production configurations**. However, change the variables for the staging environment.
 
-![Build branch configuration - Branch details](../../static/img/notes-on-atlassian-bamboo/image-20200920110535916.png)
+![Build branch configuration - Branch details](./img/image-20200920110535916.png)
 
 You may also need to override the *default branch configurations* under the **Variables** tab.
 
-![Build branch configuration - Variables](../../static/img/notes-on-atlassian-bamboo/image-20200920110548520.png)
+![Build branch configuration - Variables](./img/image-20200920110548520.png)
 
 You can find these tabs under form the top menu: **Build** > **All build plans** > **🖋** (right end of the plan) > (Choose the plan branch name).

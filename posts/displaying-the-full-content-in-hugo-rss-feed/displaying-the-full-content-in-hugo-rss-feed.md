@@ -6,7 +6,7 @@ lastmod: 2020-07-03T09:53:38+08:00
 draft: false
 categories: ["Dev"]
 tags: ["tutorial", "hugo", "rss"]
-thumbnail: /img/displaying-the-full-content-in-hugo-rss-feed/cover-images/cover-images.001.png
+thumbnail: /posts/displaying-the-full-content-in-hugo-rss-feed/cover-images/cover-images.001.png
 ---
 
 ## Background

@@ -6,8 +6,7 @@ lastmod: 2020-06-27T16:28:24+08:00
 draft: false
 categories: ["Dev"]
 tags: ["pest-control", "nodejs", "node-sass", "gulp", "gulp-sass"]
-thumbnail: /img/battling-with-gulp-and-node/thumbnail.png
-# thumbnail: https://meme-creator.com/media/images/template-epic-handshake-3-arms.JPEG
+thumbnail: /posts/battling-with-gulp-and-node/thumbnail.png
 ---
 
 ## 😨 Problem

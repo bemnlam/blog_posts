@@ -122,7 +122,7 @@ The shop is selling one of the lightest roasted whole beans in the city. I bough
 
 - Floral, berries, tropical, citrus, sweet
 
-{{< figure src="/img/fantastic-beans-and-where-to-find-them/01_flavor-wheel.JPG" alt="01_flavor-wheel" title="Note: they have a simple wheel indicates the taste on their bean bags!" >}}
+{{< figure src="./img/01_flavor-wheel.JPG" alt="01_flavor-wheel" title="Note: they have a simple wheel indicates the taste on their bean bags!" >}}
 
 
 ### Subscription plans

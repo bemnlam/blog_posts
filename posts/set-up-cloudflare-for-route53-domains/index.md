@@ -6,8 +6,8 @@ lastmod: 2020-12-31T17:46:38+08:00
 draft: false
 categories: ["Dev"]
 tags: ["tutorial", "cloudflare", "aws", "route53"]
-cover_image: /img/set-up-cloudflare-for-route53-domains/thumbnail.jpg
-thumbnail: /img/set-up-cloudflare-for-route53-domains/thumbnail.jpg
+cover_image: /posts/set-up-cloudflare-for-route53-domains/thumbnail.jpg
+thumbnail: /posts/set-up-cloudflare-for-route53-domains/thumbnail.jpg
 ---
 
 
@@ -26,7 +26,7 @@ This article shows how to configure Cloudflare for an existing website using AWS
 
 In my opinion, **domain registrar is the most confusing part when you configure Cloudflare**. To check the details of your domain, use the [**Domain Name Registration Data Lookup**](https://lookup.icann.org/lookup). Here is the lookup result of `gitlab.com`:
 
-![image-20201231180715529](/img/set-up-cloudflare-for-route53-domains/image-20201231180715529.png)
+![image-20201231180715529](./img/image-20201231180715529.png)
 
 The Registrar Information section contains the information where you should change the nameservers in the next step.
 
@@ -60,9 +60,9 @@ Nameserver of the domain is at a higher level and it's controled by the domain r
 
 It's free to create a Cloudflare account: https://dash.cloudflare.com/sign-up. Cloudflare also offer paid plans and I won't discuss them in this article.
 
-![image-20201231175523687](/img/set-up-cloudflare-for-route53-domains/image-20201231175523687.png)
+![image-20201231175523687](./img/image-20201231175523687.png)
 
-![image-20201231175540349](/img/set-up-cloudflare-for-route53-domains/image-20201231175540349.png)
+![image-20201231175540349](./img/image-20201231175540349.png)
 
 Choose the free plan and then click **Continue**
 
@@ -74,7 +74,7 @@ After that, Cloudflare will do a DNS scan for the domain you've entered. Click *
 
 The last step of setup is changing the nameservers. You will see the following instruction:
 
-![image-20201231182416379](/img/set-up-cloudflare-for-route53-domains/image-20201231182416379.png)
+![image-20201231182416379](./img/image-20201231182416379.png)
 
 #### 1. Log in to your registrar account
 

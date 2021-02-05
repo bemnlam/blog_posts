@@ -5,8 +5,8 @@ date: 2020-10-03T13:40:48+08:00
 draft: false
 categories: ["Dev"]
 tags: ["tutorial", "aws", "ec2", "rdp", "ovpn"]
-cover_image: /img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/thumbnail.jpg
-thumbnail: /img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/thumbnail.jpg
+cover_image: /posts/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/thumbnail.jpg
+thumbnail: /posts/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/thumbnail.jpg
 ---
 
 ## Overview
@@ -41,21 +41,21 @@ Choose **Services** > **EC2** from the menu. At the **EC2 Dashboard**, choose **
 
 Click the **Launch Instance** and choose the suitable AMI (Amazon Machine Image). Here I choose a `t2.micro` instance with `Ubuntu Server 18.04 LTS` image. **Remember also choose the suitable Storage** as not all kinds of storage are free. In this example I set up a `30GB General Purpose` storage.
 
-![Image: Ubuntu Server 18.04 LTS](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702183719536.png)
+![Image: Ubuntu Server 18.04 LTS](./img/image-20200702183719536.png)
 
-![Instance Type: t2.micro](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702183754512.png)
+![Instance Type: t2.micro](./img/image-20200702183754512.png)
 
-![Click Review and Launch](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702183909326.png)
+![Click Review and Launch](./img/image-20200702183909326.png)
 
-![Storage: 30GB General Purpose](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702183922739.png)
+![Storage: 30GB General Purpose](./img/image-20200702183922739.png)
 
 #### Allow SSH and RDP connections
 
 Choose the security groups created in the previous step:
 
-![Security Group: allow SSH and RDP](../../static/img/image-20200702184007198.png)
+![Security Group: allow SSH and RDP](./img/image-20200702184007198.png)
 
-![image-20200702184046233](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702184046233.png)
+![image-20200702184046233](./img/image-20200702184046233.png)
 
 ### Create and download a `.pem` key file
 
@@ -63,7 +63,7 @@ You should create this key file. If you don't create this and link it to the ins
 
 After that, click **Download Key Pair** and keep the key file save.
 
-![image-20200702184135610](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702184135610.png)
+![image-20200702184135610](./img/image-20200702184135610.png)
 
 
 ##### Do a `chmod` on the key file
@@ -157,16 +157,17 @@ sudo passwd ubuntu
 
 For mac user, you need to download the [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12). If you are using Windows, you should already have the Remote Desktop application preinstalled.
 
-[![Download Microsoft Remote Desktop](../../static/img/image-20201003143752732.png)](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+[![Download Microsoft Remote Desktop](./img/image-20201003143752732.png)](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
+
 Launch the app and click **Add PC**:
 
-![Add PC in Microsoft Remote Desktop](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702192027044.png)
+![Add PC in Microsoft Remote Desktop](./img/image-20200702192027044.png)
 
-Set the PC name (i.e. the DNS name of your machine):![Set PC name](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702192128973.png)
+Set the PC name (i.e. the DNS name of your machine):![Set PC name](./img/image-20200702192128973.png)
 
 Login with user `ubuntu` and the password you set in the previous step.
 
-![Connect](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702192239827.png)
+![Connect](./img/image-20200702192239827.png)
 
 ---
 
@@ -263,9 +264,9 @@ After that, reboot the machine.
 
 Create a new security group allows all TCP and UDP inbound connections and add this security group to the EC2 instance:
 
-![EC2 instance inbound rules](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702200459525.png)
+![EC2 instance inbound rules](./img/image-20200702200459525.png)
 
-![Assign a security group](../../static/img/set-up-an-aws-ec2-with-ubuntu-gui-rdp-and-more/image-20200702200555846.png)
+![Assign a security group](./img/image-20200702200555846.png)
 
 #### Install openvpn scripts
 
@@ -344,7 +345,7 @@ scp -i sparkle.pem ubuntu@ec2-0-1-2-3.ap-northeast-1.compute.amazonaws.com:~/dem
 
 Launch the client and click **Import Profile**:
 
-![Import ovpn profile](../../static/img/screenshot.png)
+![Import ovpn profile](./img/screenshot.png)
 
 
 
