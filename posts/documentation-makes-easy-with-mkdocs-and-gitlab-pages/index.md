@@ -23,11 +23,11 @@ I created a static website using **MkDocs** and deployed to [**GitLab Pages**](h
 - [GitLab Pages](#gitlab-pages)
   - [.gitlab-ci.yml](#gitlab-ci-yml)
   - [Build and Deploy](#build-and-deploy)
-- [Conclustion](#conclusion)
+- [Conclusion](#conclusion)
 
 ---
 
-## MkDocs {#intro}##
+## MkDocs {#intro}
 From [MkDocs' official website](https://www.mkdocs.org/):
 > MkDocs is a **fast**, **simple** and **downright gorgeous** static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
