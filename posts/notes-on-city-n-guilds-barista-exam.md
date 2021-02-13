@@ -2,7 +2,7 @@
 title: "☕️ Notes on City & Guilds International Barista Exam"
 description: "A notebook for C&G barista exam."
 date: 2020-12-31T20:58:21+08:00
-lastmod: 2020-12-31T20:58:21+08:00
+lastmod: 2021-02-13T20:43:21+08:00
 draft: false
 categories: ["Coffee"]
 tags: ["city-n-guilds", "barista", "coffee"]
@@ -16,7 +16,7 @@ I passed the [**City & Guilds International Barista Skills**](https://www.cityan
 
 ## The Notebook
 
-As a result, this notebook is created 👉 https://bemnlam.gitlab.io/coffee-lab/. 
+As a result, this notebook is created 👉 https://coffeelab.eternalrecurrence.space/. 
 
 (The notebook is powered by [MkDocs](https://www.mkdocs.org/) and you can find out how to create a site like that [here](/posts/documentation-makes-easy-with-mkdocs-and-gitlab-pages/).)
 
