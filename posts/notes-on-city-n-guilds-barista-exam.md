@@ -16,7 +16,7 @@ I passed the [**City & Guilds International Barista Skills**](https://www.cityan
 
 ## The Notebook
 
-As a result, this notebook is created 👉 https://coffeelab.eternalrecurrence.space/. 
+As a result, this notebook is created 👉 https://coffeelab.lofibean.cc/. 
 
 (The notebook is powered by [MkDocs](https://www.mkdocs.org/) and you can find out how to create a site like that [here](/posts/documentation-makes-easy-with-mkdocs-and-gitlab-pages/).)
 
