@@ -11,7 +11,6 @@ thumbnail: https://static.dribbble.com/users/79571/screenshots/2232375/ruby.png
 
 This post contains many useful snippets for me when writing **Ruby** scripts. I will keep updating this note in the future.
 
-{{< toc >}}
 
 ## 🏷 About File
 

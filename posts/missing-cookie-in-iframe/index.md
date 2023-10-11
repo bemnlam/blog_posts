@@ -10,7 +10,6 @@ cover_image: https://images.unsplash.com/photo-1596872907520-07fa00b9aa68?ixid=M
 cover_image_caption: Photo by Bermix Studio https://unsplash.com/photos/ds7198IW3wo
 ---
 
-{{< toc >}}
 
 ## 😨 Problem
 

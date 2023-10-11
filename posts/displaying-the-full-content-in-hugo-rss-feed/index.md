@@ -13,8 +13,6 @@ thumbnail: /posts/displaying-the-full-content-in-hugo-rss-feed/cover-images/cove
 
 Recently I created a hugo blog and started writing articles (yes, that's the blog you are reading). Later, I found that dev.to can [publish articles (as draft) from a RSS feed](https://dev.to/settings/publishing-from-rss). In that way I don't have to copy-and-paste my articles manually in order to publish the same item on dev.to!
 
-{{< toc skip="Background">}}
-
 ## 😨 Problem {#problem}
 
 Although dev.to's puslishing from RSS feed service is great, my Hugo site is not that great (with the basic settings). **When I was trying to sync my RSS feed items to dev.to, all items can be imported but only the beginning part of the content was fetched.**

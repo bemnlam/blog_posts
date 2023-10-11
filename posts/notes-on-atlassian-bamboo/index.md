@@ -18,7 +18,6 @@ This is an article talking about **my experience (≠ 100% solution. ≠ golden 
 
 > Note on 2020: [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a newer service created by Atlassian. If you are building applications other then [Windows](https://bitbucket.org/site/master/issues/13452/support-for-native-windows-net-builds-on), [macOS, or iOS](https://bitbucket.org/site/master/issues/13719/support-for-macos-ios-in-pipelines) applications then I strongly recommend you to use this instead of Bamboo.
 
-{{< toc >}}
 
 # CI/CD principles
 

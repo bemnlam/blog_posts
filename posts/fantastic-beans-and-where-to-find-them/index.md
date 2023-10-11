@@ -15,8 +15,6 @@ thumbnail: https://images.unsplash.com/photo-1564676677001-92e8f1a0df30?ixlib=rb
 
 During the 2020 pandamic, it's not easy to buy beans overseas. However, it gave me a great opportunity to search for some good beans in Hong Kong. Plus, I have more time to stay at home and brew coffee as the company started the WFH policy from Feb.
 
-{{< toc skip="background">}}
-
 ### Update history
 
 🏷 2020-09-12:

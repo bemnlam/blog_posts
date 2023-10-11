@@ -11,7 +11,6 @@ cover_image_caption: "Photo by Pixabay from Pexels https://www.pexels.com/photo/
 ---
 
 
-{{< toc >}}
 
 ## 😨 Problem
 

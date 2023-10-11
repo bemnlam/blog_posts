@@ -12,7 +12,6 @@ cover_image_caption: "Photo by Greg Rosenke: https://unsplash.com/photos/gPEMUZH
 
 ## Overview
 
-{{< toc >}}
 
 I set up this hugo blog and hosted it on GitHub page. At first, I just want to make it work: **showing some text and images**. However, I realized that:
 

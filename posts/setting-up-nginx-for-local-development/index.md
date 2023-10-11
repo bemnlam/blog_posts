@@ -12,7 +12,6 @@ Having a proper local development environment is crucial for building and testin
 
 In this post, I'll explain how to install Nginx and configure it for local development with HTTPS enabled.
 
-{{< toc >}}
 
 ## What is Nginx?
 

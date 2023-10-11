@@ -10,7 +10,6 @@ cover_image: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=
 
 This post shows some useful VSCode tasks I set up to run and build Hugo.
 
-{{< toc >}}
 
 Create a `tasks.json` under `.vscode`. Launch `.vscode/tasks.json` and make sure that you have `version`, `tasks` and `input` :
 

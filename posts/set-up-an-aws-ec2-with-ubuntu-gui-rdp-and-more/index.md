@@ -19,7 +19,6 @@ Sign in to your AWS Account and go to the AWS EC2 Console: https://aws.amazon.co
 
 
 
-{{< toc >}}
 
 
 

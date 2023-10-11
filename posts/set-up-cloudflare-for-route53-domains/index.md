@@ -18,7 +18,6 @@ This article shows how to configure Cloudflare for an existing website using AWS
 
 
 
-{{< toc >}}
 
 
 
