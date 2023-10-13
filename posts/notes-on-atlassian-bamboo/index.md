@@ -1,6 +1,6 @@
 ---
 title: "Atlassian Bamboo: an Opinionated Approach"
-description: "Thoughs about using Atlassian Bamboo: the introduction."
+summary: "Thoughs about using Atlassian Bamboo: the introduction."
 date: 2020-09-20T14:45:18+08:00
 lastmod: 2021-02-05T21:06:24+08:00
 draft: false

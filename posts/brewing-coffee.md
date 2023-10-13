@@ -1,6 +1,6 @@
 ---
 title: "☕️ Brewing Coffee"
-description: A note on how to brew coffee
+summary: A note on how to brew coffee
 date: 2020-05-17T21:10:25+08:00
 draft: false
 categories: ["Coffee"]

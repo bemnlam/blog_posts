@@ -1,6 +1,6 @@
 ---
 title: "The Perks of Being a Mac (or FreeBSD) user"
-description: Your computer may know something you don't expected.
+summary: Your computer may know something you don't expected.
 date: 2020-06-28T12:28:38+08:00
 lastmod: 2020-06-28T22:30:38+08:00
 draft: false

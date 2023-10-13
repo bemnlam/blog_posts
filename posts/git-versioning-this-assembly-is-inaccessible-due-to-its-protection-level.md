@@ -1,6 +1,6 @@
 ---
 title: "🐞 GitVersioning: 'ThisAssembly' Is Inaccessible Due to Its Protection Level"
-description: I can't use 'ThisAssembly' in my .NET MVC project. Here's why.
+summary: I can't use 'ThisAssembly' in my .NET MVC project. Here's why.
 date: 2020-06-25T17:10:24+08:00
 lastmod: 2020-06-28T11:10:24+08:00
 draft: false

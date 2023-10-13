@@ -1,13 +1,11 @@
 ---
 title: "Adding Audio to Your Web App: The Complete Guide"
-description: 
+summary: Sound, rhythm, and harmony find their way into the inward places of the soul.
 date: 2023-10-10T22:31:27-05:00
-draft: true
+draft: false
 categories: ["Dev"]
 tags: ["audio", programming, "web", "obs"]
 ---
-
-## Preface
 
 As web developers, we're always on the lookout for ways to make our web applications more engaging. One effective way is by adding audio playback. Whether it's for music, podcasts, or sound effects, integrating audio can enhance the user experience.
 

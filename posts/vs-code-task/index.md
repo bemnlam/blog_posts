@@ -4,7 +4,7 @@ date: 2022-02-13T14:56:15+08:00
 draft: false
 categories: ["Dev"]
 tags: ["vscode", "hugo"]
-description: This post shows some useful VSCode tasks I set up to run and build Hugo.
+summary: This post shows some useful VSCode tasks I set up to run and build Hugo.
 cover_image: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80
 ---
 

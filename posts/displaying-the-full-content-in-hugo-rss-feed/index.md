@@ -1,6 +1,6 @@
 ---
 title: "Displaying the Full Content in Hugo's RSS feed"
-description: The default RSS feed in Hugo site shows article abstract only. But what should I do if I want to display full content of the articles in the feed?
+summary: The default RSS feed in Hugo site shows article abstract only. But what should I do if I want to display full content of the articles in the feed?
 date: 2020-07-03T09:53:38+08:00
 lastmod: 2020-07-03T09:53:38+08:00
 draft: false

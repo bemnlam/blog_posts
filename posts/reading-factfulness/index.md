@@ -1,6 +1,6 @@
 ---
 title: 【書摘】真確：扭轉十大直覺偏誤，發現事情比你想的美好
-description: This is a note about the book "FACTFULNESS：Ten Reasons We’re Wrong About the World--and Why Things Are Better Than You Think" (真確：扭轉十大直覺偏誤，發現事情比你想的美好)
+summary: This is a note about the book "FACTFULNESS：Ten Reasons We’re Wrong About the World--and Why Things Are Better Than You Think" (真確：扭轉十大直覺偏誤，發現事情比你想的美好)
 date: 2021-02-25T17:10:25+08:00
 draft: false
 categories: ["Readings"]

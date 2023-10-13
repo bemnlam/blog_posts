@@ -3,7 +3,7 @@ title: "🐞 Missing Cookie in iframe"
 date: 2021-02-16T19:08:15+08:00
 lastmod: 2021-02-16T19:08:15+08:00
 draft: false
-description: Adding an config in IIS to fix my iframe content.
+summary: Adding an config in IIS to fix my iframe content.
 categories: ["Dev"]
 tags: ["pest-control", "iis", "iframe", "cookie"]
 cover_image: https://images.unsplash.com/photo-1596872907520-07fa00b9aa68?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvb2tpZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80

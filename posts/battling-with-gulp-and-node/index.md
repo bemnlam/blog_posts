@@ -1,6 +1,6 @@
 ---
 title: "🐞 Battling With Gulp and Node"
-description: Tackling the generation gap between old Gulp and young Node when building my website.
+summary: Tackling the generation gap between old Gulp and young Node when building my website.
 date: 2020-06-27T16:03:12+08:00
 lastmod: 2020-06-27T16:28:24+08:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Use Gravatar Everywhere"
-description: Gravatar. Gravatar everywhere.
+summary: Gravatar. Gravatar everywhere.
 date: 2020-07-18T12:01:56+08:00
 lastmod: 2020-07-18T12:01:56+08:00
 draft: false

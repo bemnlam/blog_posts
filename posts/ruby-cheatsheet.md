@@ -1,6 +1,6 @@
 ---
 title: "Ruby Cheatsheet"
-description: I don't need ↑↑↓↓←→←→BA but I need this when writing Ruby scripts.
+summary: I don't need ↑↑↓↓←→←→BA but I need this when writing Ruby scripts.
 date: 2020-09-15T08:40:48+08:00
 draft: false
 categories: ["Dev"]

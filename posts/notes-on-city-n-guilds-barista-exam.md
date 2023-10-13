@@ -1,6 +1,6 @@
 ---
 title: "☕️ Notes on City & Guilds International Barista Exam"
-description: "A notebook for C&G barista exam."
+summary: "A notebook for C&G barista exam."
 date: 2020-12-31T20:58:21+08:00
 lastmod: 2021-02-13T20:43:21+08:00
 draft: false

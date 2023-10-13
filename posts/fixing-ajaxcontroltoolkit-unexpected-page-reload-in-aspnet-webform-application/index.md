@@ -1,6 +1,6 @@
 ---
 title: "🐞 Fixing AjaxControlTookit Unexpected Page Reload in ASP.NET Web Form Application"
-description: "ASP.NET Web Form Archaeology: What's wrong with my __doPostBack() on Firefox? Why my AjaxControlToolkit is out of Control?"
+summary: "ASP.NET Web Form Archaeology: What's wrong with my __doPostBack() on Firefox? Why my AjaxControlToolkit is out of Control?"
 date: 2021-02-12T12:44:24+08:00
 lastmod: 2021-02-17T19:25:24+08:00
 draft: false

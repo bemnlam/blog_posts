@@ -1,6 +1,6 @@
 ---
 title: "A Note on SSL Certificate"
-description: This is a note about the Linkedin learning course SSL Certificates for Web Developers.
+summary: This is a note about the Linkedin learning course SSL Certificates for Web Developers.
 date: 2020-05-23T17:10:25+08:00
 draft: false
 categories: ["Dev"]

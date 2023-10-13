@@ -1,6 +1,6 @@
 ---
 title: "⚙️ Setting Up Nginx for Local Development"
-description: "Let's have HTTPS all the way, locally."
+summary: "Let's have HTTPS all the way, locally."
 date: 2023-08-17T07:59:39-05:00
 draft: false
 categories: ["Dev"]
@@ -44,6 +44,8 @@ After that, add it as a service to start Nginx automatically:
 brew services start nginx
 ```
 
+Go to [http://localhost:8888](http://localhost:8888) and you should be able to see a "Welcome to Nginx!" message.
+
 - Installation directory: `/opt/homebrew/bin/nginx`
 - Document directory: `/opt/homebrew/var/www`
 
@@ -58,6 +60,8 @@ After that, start Nginx manually:
 ```powershell
 start nginx.exe 
 ```
+
+Go to [http://localhost](http://localhost) and you should be able to see a "Welcome to Nginx!" message.
 
 ## Generating the SSL Certificate with `mkcert`
 

@@ -1,6 +1,6 @@
 ---
 title: "Set Up an AWS EC2 with Ubuntu GUI, RDP and more"
-description: A guide to set up a AWS EC2 with GUI and more.
+summary: A guide to set up a AWS EC2 with GUI and more.
 date: 2020-10-03T13:40:48+08:00
 draft: false
 categories: ["Dev"]

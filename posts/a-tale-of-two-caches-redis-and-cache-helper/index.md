@@ -1,6 +1,6 @@
 ---
 title: "A Tale of Two Caches: Redis and the cache helper"
-description: A note on how to add Redis and the cache helper to a .NET core Mvc app.
+summary: A note on how to add Redis and the cache helper to a .NET core Mvc app.
 date: 2020-06-11T21:06:59+08:00
 lastmod: 2020-06-27T17:06:24+08:00
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Set Up Cloudflare for AWS Route 53 Domains"
-description: This article shows how to configure Cloudflare for an existing website using AWS Route 53.
+summary: This article shows how to configure Cloudflare for an existing website using AWS Route 53.
 date: 2020-12-31T17:46:38+08:00
 lastmod: 2020-12-31T17:46:38+08:00
 draft: false

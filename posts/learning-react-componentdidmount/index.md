@@ -1,6 +1,6 @@
 ---
 title: "Learning React: Updating Component State in componentDidMount()"
-description: Hey I just met you and this is crazy. But here's my data so have a callback, maybe.
+summary: Hey I just met you and this is crazy. But here's my data so have a callback, maybe.
 date: 2023-07-17T08:12:01-05:00
 draft: false
 categories: ["Dev"]

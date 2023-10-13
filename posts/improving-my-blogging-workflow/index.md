@@ -1,6 +1,6 @@
 ---
 title: "Improving My Blogging Workflow"
-description: It's time to do some refactoring and improvements for the blog!
+summary: It's time to do some refactoring and improvements for the blog!
 date: 2021-02-05T21:33:03+08:00
 draft: false
 categories: ["Leisure"]
