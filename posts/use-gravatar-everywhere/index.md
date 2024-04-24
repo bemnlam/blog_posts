@@ -6,7 +6,7 @@ lastmod: 2020-07-18T12:01:56+08:00
 draft: false
 categories: ["Dev"]
 tags: [ "tutorial", "gravatar" ]
-thumbnail: /posts/use-gravatar-everywhere/cover-images.001.jpg
+thumbnail: /posts/use-gravatar-everywhere/feature.jpg
 ---
 
 ### What is Gravatar
