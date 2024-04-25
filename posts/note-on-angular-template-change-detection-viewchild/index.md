@@ -2,7 +2,7 @@
 title: "Note on Angular: Template, Change Detection and ViewChild"
 summary: Explore dynamic Angular component rendering with ngTemplateOutlet and efficient change detection strategies using OnPush and ViewChild.
 date: 2024-04-25T08:37:02-05:00
-draft: true
+draft: false
 categoties: ["Dev"]
 tage: ["web", "angular"]
 thumbnail: posts/note-on-angular-template-change-detection-viewchild/feature.jpg
