@@ -4,7 +4,7 @@ summary: Explore dynamic Angular component rendering with ngTemplateOutlet and e
 date: 2024-04-25T08:37:02-05:00
 draft: false
 categoties: ["Dev"]
-tage: ["web", "angular"]
+tags: ["web", "angular"]
 thumbnail: posts/note-on-angular-template-change-detection-viewchild/feature.jpg
 ---
 
