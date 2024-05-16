@@ -13,7 +13,11 @@ Here are 3 notes on ESLint warnings/errors when developing Angular app:
 For each `<a>` with user interaction e.g. `(click)`, you have to define at least one **keyboard** interaction together with tab index e.g.
 
 ```html
-<a (click)="clickHandler" (keyup.enter)="clickHandler" [tabindex]="0">
+<a 
+	(click)="clickHandler" 
+	(keyup.enter)="clickHandler" 
+	[tabindex]="0"
+>
 	This is a link which allow user to click with accessbility
 </a>
 ```
@@ -27,7 +31,11 @@ somePropertyWithTypeEnum.valueOf() = anIntegerYouWantToCompare;
 Adding a hash and pass `.value` when dealing with Mat-select input handler:
 
 ```html
-<mat-select id="{{question.id}}" formControlName="{{question.id}}"
-	#selectInput	(input)="onSearchChange(selectInput.value)"
-	(change)="questionFilled()">
+<mat-select 
+	id="{{question.id}}" 
+	formControlName="{{question.id}}"
+	#selectInput
+	(input)="onSearchChange(selectInput.value)"
+	(change)="questionFilled()"
+>
 ```
